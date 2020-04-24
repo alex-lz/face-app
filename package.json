@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "ya": "nodemon server.js -e js,html,css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

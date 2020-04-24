@@ -1,6 +1,7 @@
 ## WebServer
 
-Código fuente de un servidor en Express con Handlebars(hbs) y desplegado en Heroku
+Código fuente de un servidor con HTML puro, desplegado en Heroku
+para detectar rostros
 
 
 Ejecuta este comando para instalar 
@@ -21,6 +22,7 @@ node server
 
 ```
 nodemon server -e js,hbs,html,css
+npm run ya
 ```
 
 * Abrir en heroku
@@ -35,12 +37,14 @@ heroku open
 http://localhost:3000/index-old.html
 http://localhost:3000/about-old.html
 http://localhost:3000/assets/(file_or_dir)
+http://localhost:3000/lib/(files)
 ```
 
 * Rutas a los views
 
 ```
-http://localhost:3000/
-http://localhost:3000/about
+http://localhost:3000
+http://localhost:3000/home
+http://localhost:3000/face_detection
 ```
 
