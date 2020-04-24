@@ -1,0 +1,23 @@
+footer {
+    background-color: #353a3f;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+video, canvas {
+    margin-left: 230px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.container {
+  margin: auto;
+  min-width: 500px;
+  max-width: 1000px;
+  height: auto;
+  padding: 10px;
+}
